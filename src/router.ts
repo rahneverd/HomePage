@@ -1,19 +1,15 @@
 import express, { Express, Request, Response } from 'express';
-// import authentication from './authentication';
+import * as jsonData from './json/data.json'
 
 const router = express.Router();
 
 export default (): express.Router => {
   router.get('/', (req: Request, res: Response) => {
-    res.render('home');
+    res.render('home', {jsonData: jsonData.internet});
   });
 
-  // router.get('/internet', (req: Request, res: Response) => {
-  //   res.render('home');
-  // });
-
   router.get('/intranet', (req: Request, res: Response) => {
-    res.render('home');
+    res.render('home',{jsonData: jsonData.intranet});
   });
   return router;
 };
