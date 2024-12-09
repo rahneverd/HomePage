@@ -1,0 +1,75 @@
+{
+    "internet": [
+        {
+            "name": "Optiplex",
+            "apps": [
+                {
+                    "name": "CasaOS",
+                    "url": "https://casaos.rahneverd.cloudns.nz",
+                    "img": "/logos/casaos.png"
+                },
+                {
+                    "name": "Deludge",
+                    "url": "https://deludge.rahneverd.cloudns.nz/",
+                    "img": "/logos/deludge.png"
+                },
+                {
+                    "name": "Radarr",
+                    "url": "https://radarr.rahneverd.cloudns.nz",
+                    "img": "/logos/radarr.png"
+                },
+                {
+                    "name": "Jellyfin",
+                    "url": "https://jellyfin.rahneverd.cloudns.nz",
+                    "img": "/logos/jellyfin.png"
+                },
+                {
+                    "name": "Sonarr",
+                    "url": "https://sonarr.rahneverd.cloudns.nz",
+                    "img": "/logos/sonarr.png"
+                },
+                {
+                    "name": "Prowlarr",
+                    "url": "https://prowlarr.rahneverd.cloudns.nz",
+                    "img": "/logos/prowlarr.png"
+                }
+            ]
+        },
+        {
+            "name": "Optiplex",
+            "apps": [
+                {
+                    "name": "CasaOS",
+                    "url": "https://casaos.rahneverd.cloudns.nz",
+                    "img": "/logos/casaos.png"
+                },
+                {
+                    "name": "Deludge",
+                    "url": "https://deludge.rahneverd.cloudns.nz/",
+                    "img": "/logos/deludge.png"
+                },
+                {
+                    "name": "Radarr",
+                    "url": "https://radarr.rahneverd.cloudns.nz",
+                    "img": "/logos/radarr.png"
+                },
+                {
+                    "name": "Jellyfin",
+                    "url": "https://jellyfin.rahneverd.cloudns.nz",
+                    "img": "/logos/jellyfin.png"
+                },
+                {
+                    "name": "Sonarr",
+                    "url": "https://sonarr.rahneverd.cloudns.nz",
+                    "img": "/logos/sonarr.png"
+                },
+                {
+                    "name": "Prowlarr",
+                    "url": "https://prowlarr.rahneverd.cloudns.nz",
+                    "img": "/logos/prowlarr.png"
+                }
+            ]
+        }
+    ],
+    "intranet": []
+}
