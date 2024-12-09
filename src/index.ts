@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors({ credentials: true }));
 
-app.use();
+// app.use();
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Express + TypeScript Server');
