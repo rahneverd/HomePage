@@ -8,7 +8,9 @@
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.ejs src/**/*.png src/**/*.css dist/",
     "start:dev": "nodemon",
-    "build": "npm run clean && tsc && npm run copy-files"
+    "build": "npm run clean && tsc && npm run copy-files",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist"
   },
   "pre-commit": [
     "ts.check",
@@ -39,6 +41,7 @@
     "@types/node": "^22.10.1",
     "copyfiles": "^2.4.1",
     "nodemon": "^3.1.7",
+    "pre-commit": "^1.2.2",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
